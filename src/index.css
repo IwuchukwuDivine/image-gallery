@@ -76,6 +76,7 @@ input{
 }
 .imagecard{
   width: 300px;
+  min-width: 300px;
   background-color: #F8F9D7;
   border-radius: 10px;
   box-shadow: 
