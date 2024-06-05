@@ -18,7 +18,7 @@ This project is part of the assignment for the Frontend Pro Track Cohort 9. The 
 
 ## Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/IwuchukwuDivine/image-gallery.git
 ```
 ## Install dependencies:
 ```bash
