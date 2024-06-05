@@ -30,10 +30,12 @@ npm start
 ```
 #### Open http://localhost:3000 to view the project in your browser.
 
-# Collaboration
+## Collaboration
 This project was a group work and collaboration between Maduka Favour and Iwuchukwu Divine. Collaboration is an integral part of the project and carries 40 marks.
 
-
+## Links 
+- **GitHub Repository:** https://github.com/IwuchukwuDivine/image-gallery
+- **Hosted Page:** https://fayvin.netlify.app/
 ## Contributors:
 - MADUKA FAVOUR
 - IWUCHUKWU DIVINE
