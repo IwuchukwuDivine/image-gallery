@@ -5,6 +5,7 @@ This project is part of the assignment for the Frontend Pro Track Cohort 9. The 
 ## Features
 
 - **Image Search:** Users can enter keywords to search for specific images.
+- **Download:** Users can download any image of their choice.
 - **Name Display:** Each image in the gallery is accompanied by a name.
 - **Responsive Design:** The gallery is designed to work seamlessly across different screen sizes.
 
