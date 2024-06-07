@@ -14,6 +14,9 @@ function App() {
   const handleNextPage = () => {
     setPage(prevPage => prevPage + 1);
   };
+  const handlePreviousPage = () => {
+    setPage(prevPage => (prevPage > 1 ? prevPage - 1 : 1));
+  };
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true)
@@ -39,7 +42,10 @@ function App() {
           : images.map((image, index) => <ImageCard key={index} image={image} />)}
 
       </div>
+     <div className='button-container'>
+      <button disabled={page === 1} onClick={handlePreviousPage} className='nextbutton'> &#8592; Previous</button>
       <button onClick={handleNextPage} className='nextbutton'>Next &#8594;</button>
+     </div>
     </div>
   );
 }
